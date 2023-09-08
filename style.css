@@ -1,0 +1,21 @@
+.parentgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: auto auto auto; */
+    /* grid-gap: 50px; */
+    background-color: blue;
+}
+
+.items1{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.parentgrid > div{
+    margin: 10px;
+    padding: 20px;
+    font-size:20px ;
+    background-color: white;
+}
